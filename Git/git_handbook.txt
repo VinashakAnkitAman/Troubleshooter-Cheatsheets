@@ -1,0 +1,38 @@
+# Installation of Git:
+  # On Windows/Mac:
+    $ Download from https://git-scm.com/downloads and install
+
+  # On Linux:
+    $ sudo apt-get install git
+    $ sudo yum install git
+    $ sudo dnf install git
+
+
+# Repository setup:
+  # Initialization for new/exisiting project:
+    $ git init
+
+  # Cloning of existing/remote repository:
+    $ git clone <repository_url/repository_path> 
+
+
+# Configurations:
+  # Config file for current repository: 
+    ./gitconfig
+
+  # Global config file for all repository:
+    ~/.gitconfig
+
+  # Getting config list for current repository
+    $ git config --list
+
+  # Getting global config list for all repository
+    $ git config --global --list
+
+  # Setting Basic Configuration for current repository:
+    $ git config user.name <name>
+    $ git config user.email <email>
+
+  # Setting Basic Configuration globaly for all repository:
+    $ git config --global user.email <email>
+    $ git config --global user.name <name>
