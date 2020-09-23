@@ -1,4 +1,6 @@
-# Installation of Git:
+====================
+Installation of Git:
+====================
   # On Windows/Mac:
     $ Download from https://git-scm.com/downloads and install
 
@@ -8,7 +10,9 @@
     $ sudo dnf install git
 
 
-# Repository setup:
+=================
+Repository setup:
+=================
   # Initialization for new/exisiting project:
     $ git init
 
@@ -16,7 +20,9 @@
     $ git clone <repository_url/repository_path> 
 
 
-# Configurations:
+===============
+Configurations:
+===============
   # Config file for current repository: 
     ./gitconfig
 
